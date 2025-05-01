@@ -32,6 +32,6 @@ public class PostProcessingBuildAndroid
         }
 
         manifest.Save(manifestPath);
-        Debug.Log("Removed intent-filters from AndroidManifest.xml Success!.");
+        Debug.Log("[Post Build] Android : Removed intent-filters from AndroidManifest.xml Success!.");
     }
 }
